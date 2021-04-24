@@ -12,8 +12,6 @@ if __name__ == '__main__':
     s = 'hii'
     s1 = s.zfill(n)
     s2 = '0' * (n - len(s)) + s
-    print(s1)
-    print(s2)
     print('2.ljust():')
     print(s.ljust(n), 'world')
     print(s + ' ' * (n - len(s)), "world")
